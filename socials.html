@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ChilliPunks</title>
+  <link rel="stylesheet" href="socials.css">
+  <link href="https://fonts.googleapis.com/css?family=Pixel+Cyr&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=DotGothic16&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <style>
+    @font-face {
+     font-family: PixelCyr;
+     src: url(fonts/pixel-cyr-normal_allfont.ru.ttf);
+    }
+   </style>
+</head>
+<body>
+        <div class="wrapper">
+            <header class="header">
+              <div class="container">
+                <div class="header__body">
+                  <h1>ChilliPunks</h1>
+                  <div class="header__burger">
+                    <span></span>
+                  </div>
+                  <nav class="header__menu">
+                    <ul class="header__list">
+                      <li>
+                        <a href="index.html" class="header__link">Mint</a>
+                      </li>
+                      <li>
+                        <a href="mint-info.html" class="header__link">Mint Info</a>
+                      </li>
+                      <li>
+                        <a href="about.html" class="header__link">About</a>
+                      </li>
+                      <li>
+                        <a href="team.html" class="header__link">Team</a>
+                      </li>
+                      <li>
+                        <a href="socials.html" class="header__link">Socials</a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </header>
+            <div class="firstcontent">
+                <div class="text">
+                    <h1 class="heading">SOCIALS</h1>
+                    <img class="suka" src="img/background.jpg" alt="">
+                    <img class="suka2" src="img/backgroundresized.jpg" alt="">
+
+                      <div class="column">
+                        <div class="item">
+                          <a href=""><img class="social" src="img/discordrezised.png" alt="Discord"></a>
+                        </div>
+                        
+
+                        <div class="item">
+                          <a href=""><img class="social" src="img/twitterresized.png" alt="Twitter"></a>
+                        </div>
+
+                        <div class="item">
+                          <a href=""><img class="social" src="img/telegramresized.png" alt="Telegram"></a>
+                        </div>
+                        <div class="item">
+                          <a href=""><img class="social" src="img/instagramresized.png" alt="Instagram"></a>
+                        </div>
+                      </div>
+                    
+                </div>
+                </div>    
+            </div>     
+  
+    
+    
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script>
+      $(document).ready(function() {
+  $(".header__burger").click(function(event) {
+    $(".header__burger,.header__menu").toggleClass("active");
+    $("body").toggleClass("lock");
+  });
+});
+  </script>
+</body>
+</html>
